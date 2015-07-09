@@ -1,0 +1,153 @@
+
+     ------------------------------------
+     |  THE CLEANER (c) Snake Man, PMC  |
+     ------------------------------------
+
+        History of The Cleaner
+       ------------------------
+ + added feature,  - general comment,  * fixed.
+
+
+??-??-1999 (??:??) / v1.1 RELEASE
+==========================
+    - optimized some code
+
+
+06-05-1999 (10:03) / v1.1b rev3
+==========================
+    * WipeOut mode duped the last entry, fixed.
+    * parameter needed to be uppercase, now reads up or lowercase.
+    
+
+03-30-1999 (??:??) / v1.1b rev1
+==========================
+    * Linux version is now compiled with -static so it will work on all,
+      versions/installations.
+    + lowercase option back in business. now works with all parameters.
+
+
+09-15-1998 (22:15) / v1.0  rev2
+==========================
+    - Linux version bugfix, Psycho mode didn't work good, fixed.
+      Wipeout mode had some bugs too, fixed.
+
+
+04-18-1998 (18:00) / v1.0  PUBLIC RELEASE !
+==========================
+    - The Cleaner v1.0 official public release.
+
+
+04-18-1998 (03:00) / v1.0  RELEASE CANDIDATE #1
+==========================
+    - Rockabilly!
+
+
+04-13-1998 (21:00) / v1.0á internal rev3
+==========================
+    * The last line of PSYCHO mode cleaned output file was "DUPE", fixed.
+
+
+04-11-1998 (03:00) / v1.0á internal rev2
+==========================
+    + Modes are now NORMAL, WIPEOUT and PSYCHO. /n, /w and /p.
+    + Linux version!
+    * OS/2 version now works. Older version didn't work at the basic mode.
+
+
+04-08-1998 (11:40) / v1.0á internal rev1
+==========================
+    + Lowercase (yes/no) kind of option. (/wl and /pl).
+    - EXTRA mode dumped, converted to lowercase OPTION.
+    - final beta before v1.0 release candidate!
+
+
+04-02-1998 (10:35) / v0.6á internal rev1
+==========================
+    + Sharing ability.
+    + PSYCHO mode: does what you need to get done. fucking rules.
+      strips all file_id.diz logos/ulby texts except the last.
+    + EXTRA mode added; same as WipeOut but it converts the file_id.diz part
+      to lowercase except the first character.
+    - fucked up all kinds of shit big time, ah, lets fix things later.
+
+
+10-17-1997 / v0.5á 
+==================
+    - ANOTHER PUBLIC BETA.
+    + Some technical information displayed on the screen.
+    - Code Optimizing
+
+
+08-12-1997 / v0.4á internal rev 01
+==================
+    + WipeOut cleaning.
+      this mode will wipe every fucking line except the FILENAME lines.
+      this is good when you want to move files to offline or deleted dir so
+      you can keep the filelist *very* short as there is no useless cmt lines.
+    + OS/2 Version.
+
+
+11-13-1996 / v0.3á
+==================
+    - FIRST PUBLIC BETA. Enjoy.
+      one month after the start of this project we do have actual beta out
+      for the public, I surely hope this bitch will work out at your systems.
+      Please report all and every bug directly to Snake Man, or any PMC member.
+
+
+11-10-1996 / v0.3á internal
+==================
+    + Added the FAKE/NUKE commentfield removal routine. Read the cleaner.doc
+      file for details, also configure the cleaner.cfg file for new configs.
+
+
+11-05-1996 / v0.2á revision 04.
+==================
+    * cleaner.cfg file now works! You can add your own ulby "first line string"
+      and Cleaner will nuke that & number of lines under it (second cfg line).
+
+
+11-04-1996 / v0.2á revision 03.
+==================
+    - compiled with Borlandc C++ v4.5 & Packed with PkLite & (Modified) PkMash.
+    - added into the beta package my own UPLOADS.DIR testing dir file, check
+      out for the results in your own dir files for maximum beta-tests.
+    + used cleaner.dat for the "lines-to-be-nuked" datas.
+    + cleaner.cfg file reading for "lines to del after '| nfo:' string".
+      please notice that the first line will not work yet, so it sill
+      nukes the string "| nfo:" even if you write something else into
+      the first line of cleaner.cfg. But the second line works ok.
+    + included the source file :) (why didn't I do this before?).
+
+
+10-24-1996 / v0.2á
+==================
+    * more lines in cleaner.cfg allowed, it was only 80 at the
+      v0.1á now its a reasonable 600.
+    + Nukes also the ulby texts. NOTICE! it only nukes a special ulbys
+      that I'm using. Those are "nfo:", "new:", "null", "null".
+      I quess you didn't get it... well here is the example from actual dir
+      file, as you notice it will nuke FOUR lines. Those lines are these:
+
+                               | nfo: 03.16.96, diz: 03.16.96
+                               | new: 03.16.96, old: 03.16.96, time: 18:00
+                               | Snake Man ^ PMC -fuck the police!
+                               |
+
+      program seeks the first  ^^^^^^  which is "| nfo:" string, and nukes
+      three lines under it WITHOUT any checking what they might be. So it
+      will work just ok if your setup is like the example, if there is no
+      nfo: string, dont worry it wont do a thing, it just skips the part.
+
+
+10-16-1996 / v0.1á
+==================
+    - First beta version out to the PMC people.
+    - Should work pretty ok, except no fancy options etc.
+      I want some bug-reports, comments/requests from you guys!
+
+
+10-13-1996 / v0.0
+==================
+    - Basically this whole project started seriously today.
+      Some research was made before tho...

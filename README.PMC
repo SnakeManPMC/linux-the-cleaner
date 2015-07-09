@@ -1,0 +1,15 @@
+
+The Cleaner v1.1b rev1
+
+	From now on, this "readme.pmc" file is only filled with information
+	related to current beta version release. all info in this file is
+	current & new. 
+    
+	**** Linux version update ****
+	
+	Now is the binary compiled with parameter -static, so every library
+	needed will be included. Thats why the size got from 13kb -> 486kb :)
+	now it should work on every linux version/installation.
+	
+
+   03-30-99 / Snake Man, PMC.
